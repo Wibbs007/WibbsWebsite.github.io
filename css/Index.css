@@ -1,0 +1,266 @@
+html{
+  background-color: slategray;
+}
+header{
+  text-align: center;
+  color: whitesmoke;
+  background-color: dimgray;
+}
+ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+
+
+
+/* COLLUMS */
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    padding: 0;
+}
+
+/* Australia */
+.ausind {
+    background: #00843D;
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    color: white;
+    transition: width 2s;
+    width: auto;
+    max-width: 100%;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.ausind:hover{
+    opacity: .5;
+}
+
+/* England */
+.engind {
+    background-color: #ff3900;
+    flex: 1;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 7rem;
+    color: white;
+    transition: width 2s;
+    width: auto;
+    max-width: 100%;
+    text-decoration: none;
+    border-radius: 50px;
+}
+.engind:hover{
+    opacity: .5;
+}
+
+/* India */
+.indind {
+  background: #2255A4;
+  flex: 1;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+  color: white;
+  transition: width 2s;
+  width: auto;
+  max-width: 100%;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.indind:hover{
+  opacity: .5;
+}
+
+/* SOUTH AFRICA */
+.safind {
+  background: #f3b71a;
+  flex: 1;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+  color: black;
+  transition: width 2s;
+  width: auto;
+  max-width: 100%;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.safind:hover{
+  opacity: .5;
+}
+
+/* NEW ZEALAND*/
+.nzind {
+  background: whitesmoke;
+  flex: 1;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+  color: black;
+  transition: width 2s;
+  width: auto;
+  max-width: 100%;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.nzind:hover{
+  opacity: .5;
+}
+
+/* NEW ZEALAND*/
+.pakind {
+  background: #006629;
+  flex: 1;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+  color: white;
+  transition: width 2s;
+  width: auto;
+  max-width: 100%;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.pakind:hover{
+  opacity: .5;
+}
+
+/* SRI LANKA*/
+.sriind {
+  background: #15295e;
+  flex: 1;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+  color: white;
+  transition: width 2s;
+  width: auto;
+  max-width: 100%;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.sriind:hover{
+  opacity: .5;
+}
+
+/* WINDIES*/
+.winind {
+  background: #7B0041;
+  flex: 1;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 7rem;
+  color: white;
+  transition: width 2s;
+  width: auto;
+  max-width: 100%;
+  text-decoration: none;
+  border-radius: 50px;
+}
+.winind:hover{
+  opacity: .5;
+}
+
+/* IMAGES FOR INDEX */
+.AusraliaImage{
+  margin-left: 10px; /* Space between text and image */
+  height: 70px; /* Adjust as needed */
+  width: auto; /* Maintain aspect ratio */
+  align-items: right;
+}
+.EnglandImage{
+  margin-left: 10px; /* Space between text and image */
+  height: 80px; /* Adjust as needed */
+  width: auto; /* Maintain aspect ratio */
+  align-items: right;
+}
+.IndiaImage{
+  margin-left: 10px; /* Space between text and image */
+  height: 60px; /* Adjust as needed */
+  width: auto; /* Maintain aspect ratio */
+  align-items: right;
+}
+.PakistanImage{
+  margin-left: 10px; /* Space between text and image */
+  height: 70px; /* Adjust as needed */
+  width: auto; /* Maintain aspect ratio */
+  align-items: right;
+}
+.NewZealandimage{
+  margin-left: 10px; /* Space between text and image */
+  height: 60px; /* Adjust as needed */
+  width: auto; /* Maintain aspect ratio */
+  align-items: right;
+}
+.SouthAfricaImage{
+  margin-left: 10px; /* Space between text and image */
+  height: 60px; /* Adjust as needed */
+  width: auto; /* Maintain aspect ratio */
+  align-items: right;
+}
+.SriLankaImage{
+  margin-left: 10px; /* Space between text and image */
+  height: 80px; /* Adjust as needed */
+  width: auto; /* Maintain aspect ratio */
+  align-items: right;
+}
+.WestIndiesImage{
+  margin-left: 10px; /* Space between text and image */
+  height: 60px; /* Adjust as needed */
+  width: auto; /* Maintain aspect ratio */
+  align-items: right;
+}
+
